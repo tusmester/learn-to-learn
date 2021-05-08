@@ -25,7 +25,7 @@ namespace MathMagic
                 do
                 {
                     n1 = _random.Next(50, 499);
-                    n2 = _random.Next(1, 10);
+                    n2 = _random.Next(2, 10);
                 } while (n1 * n2 > 1000);
 
                 ConsoleEx.WriteLineBold(n1 + " x " + n2);
